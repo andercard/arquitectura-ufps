@@ -329,3 +329,22 @@ function handleTweets(tweets) {
 }
 
 twitterFetcher.fetch(xs_tweet);
+
+// eliminar enlaces por defecto
+$(document).ready(function() {
+  $('.eliminar-enlace').on("click", function(event) {
+    event.preventDefault();
+  })
+});
+
+// Mostramos y ocultamos menu movil
+$('.navbar-toggle').click(function(event){
+  event.preventDefault();
+  $(".contenedor-item-menu").toggleClass("mostra-menu");
+});
+
+// Mostramos y ocultamos submenus
+$('.submenu-padre').click(function(event){
+  event.preventDefault();
+  $(".submenu-hijo").slideToggle();
+});

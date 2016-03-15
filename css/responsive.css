@@ -9,7 +9,6 @@
 
 
 /* Large desktops and laptops */
-@media (min-width: 800px) {
 /*Child menu*/
     nav ul li .dropdown-menu {
         display: block;
@@ -52,7 +51,6 @@
     nav ul li .dropdown-menu li a:hover {
         color: #1ac6ff; //need to be add in color css
     }
-}
 
 
 /* Portrait tablets and medium desktops */

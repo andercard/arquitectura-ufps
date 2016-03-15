@@ -59,68 +59,68 @@
     border: 1px solid #1ac6ff;
 }
 
-.nav-light.custom-nav .navbar-nav>.active>a,
-.nav-light.custom-nav .navbar-nav>.active>a:hover,
-.nav-light.custom-nav .navbar-nav>.active>a:focus{
+.nav-light.custom-nav .nav-item>.active>a,
+.nav-light.custom-nav .nav-item>.active>a:hover,
+.nav-light.custom-nav .nav-item>.active>a:focus{
     color:#CC0000;
 }
 
-.nav-light.scroll-nav  .navbar-nav>li>a:hover,
-.nav-light.scroll-nav  .navbar-nav>li>a:focus,
-.nav-light.custom-nav .navbar-nav>li>a:hover,
-.nav-light.custom-nav .navbar-nav>li>a:focus{
+.nav-light.scroll-nav  .nav-item>li:hover>a,
+.nav-light.scroll-nav  .nav-item>li:focus>a,
+.nav-light.custom-nav .nav-item>li:hover>a,
+.nav-light.custom-nav .nav-item>li:focus>a{
     color:#CC0000;
 }
 
-.nav-light.scroll-nav .navbar-nav>.active>a,
-.nav-light.scroll-nav .navbar-nav>.active>a:hover,
-.nav-light.scroll-nav .navbar-nav>.active>a:focus{
+.nav-light.scroll-nav .nav-item>.active>a,
+.nav-light.scroll-nav .nav-item>.active>a:hover,
+.nav-light.scroll-nav .nav-item>.active>a:focus{
     color:#CC0000;
 }
 
-.nav-dark.custom-nav .navbar-nav>.active>a,
-.nav-dark.custom-nav .navbar-nav>.active>a:hover,
-.nav-dark.custom-nav .navbar-nav>.active>a:focus,
-.nav-dark.scroll-nav .navbar-nav>.active>a,
-.nav-dark.scroll-nav .navbar-nav>.active>a:hover,
-.nav-light.scroll-nav .navbar-nav>.active>a:focus{
+.nav-dark.custom-nav .nav-item>.active>a,
+.nav-dark.custom-nav .nav-item>.active>a:hover,
+.nav-dark.custom-nav .nav-item>.active>a:focus,
+.nav-dark.scroll-nav .nav-item>.active>a,
+.nav-dark.scroll-nav .nav-item>.active>a:hover,
+.nav-light.scroll-nav .nav-item>.active>a:focus{
     color:#CC0000;
 }
-.nav-dark.custom-nav .navbar-nav>li>a:hover,
-.nav-dark.custom-nav .navbar-nav>li>a:focus,
-.nav-dark.scroll-nav  .navbar-nav>li>a:hover,
-.nav-dark.scroll-nav  .navbar-nav>li>a:focus{
-    color:#CC0000;
-}
-
-.hide-nav-light.navbar .navbar-nav>.active>a,
-.hide-nav-light.navbar .navbar-nav>.active>a:hover,
-.hide-nav-light.navbar .navbar-nav>.active>a:focus,
-.hide-nav-light.navbar .navbar-nav>li>a:hover,
-.hide-nav-light.navbar  .navbar-nav>li>a:focus{
+.nav-dark.custom-nav .nav-item>li>a:hover,
+.nav-dark.custom-nav .nav-item>li>a:focus,
+.nav-dark.scroll-nav  .nav-item>li>a:hover,
+.nav-dark.scroll-nav  .nav-item>li>a:focus{
     color:#CC0000;
 }
 
-.hide-nav-dark.navbar .navbar-nav>.active>a,
-.hide-nav-dark.navbar .navbar-nav>.active>a:hover,
-.hide-nav-dark.navbar .navbar-nav>.active>a:focus,
-.hide-nav-dark.navbar .navbar-nav>li>a:hover,
-.hide-nav-dark.navbar  .navbar-nav>li>a:focus{
-    color:#CC0000;
-}
-.fixed-nav.navbar .navbar-nav>.active>a,
-.fixed-nav.navbar .navbar-nav>.active>a:hover,
-.fixed-nav.navbar .navbar-nav>.active>a:focus,
-.fixed-nav.navbar .navbar-nav>li>a:hover,
-.fixed-nav.navbar  .navbar-nav>li>a:focus{
+.hide-nav-light.navbar .nav-item>.active>a,
+.hide-nav-light.navbar .nav-item>.active>a:hover,
+.hide-nav-light.navbar .nav-item>.active>a:focus,
+.hide-nav-light.navbar .nav-item>li>a:hover,
+.hide-nav-light.navbar  .nav-item>li>a:focus{
     color:#CC0000;
 }
 
-.fixed-nav-dark.navbar .navbar-nav>.active>a,
-.fixed-nav-dark.navbar .navbar-nav>.active>a:hover,
-.fixed-nav-dark.navbar .navbar-nav>.active>a:focus,
-.fixed-nav-dark.navbar .navbar-nav>li>a:hover,
-.fixed-nav-dark.navbar  .navbar-nav>li>a:focus{
+.hide-nav-dark.navbar .nav-item>.active>a,
+.hide-nav-dark.navbar .nav-item>.active>a:hover,
+.hide-nav-dark.navbar .nav-item>.active>a:focus,
+.hide-nav-dark.navbar .nav-item>li>a:hover,
+.hide-nav-dark.navbar  .nav-item>li>a:focus{
+    color:#CC0000;
+}
+.fixed-nav.navbar .nav-item>.active>a,
+.fixed-nav.navbar .nav-item>.active>a:hover,
+.fixed-nav.navbar .nav-item>.active>a:focus,
+.fixed-nav.navbar .nav-item>li>a:hover,
+.fixed-nav.navbar  .nav-item>li>a:focus{
+    color:#CC0000;
+}
+
+.fixed-nav-dark.navbar .nav-item>.active>a,
+.fixed-nav-dark.navbar .nav-item>.active>a:hover,
+.fixed-nav-dark.navbar .nav-item>.active>a:focus,
+.fixed-nav-dark.navbar .nav-item>li>a:hover,
+.fixed-nav-dark.navbar  .nav-item>li>a:focus{
     color:#CC0000;
 }
 
@@ -162,7 +162,7 @@
 }
 
 .feature i{
-    color: #CC0000;   
+    color: #CC0000;
 }
 
 .feature-icon i{
