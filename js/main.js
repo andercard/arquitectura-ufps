@@ -345,6 +345,5 @@ $('.navbar-toggle').click(function(event){
 
 // Mostramos y ocultamos submenus
 $('.submenu-padre').click(function(event){
-  event.preventDefault();
   $(".submenu-hijo").slideToggle();
 });

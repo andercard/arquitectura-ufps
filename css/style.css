@@ -300,7 +300,7 @@ p:last-child {
     background-color: rgba(0, 0, 0, 0.5);
     /*    background-image: url(../images/dots.png);*/
     width: 100%;
-    min-height: 750px
+    min-height: 100vh;
 }
 .overlay-stratup-half {
     background-color: rgba(0, 0, 0, 0.5);
